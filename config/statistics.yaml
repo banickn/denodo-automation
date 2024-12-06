@@ -1,0 +1,5 @@
+databases:
+  - name: admin
+    freshness_in_days: 2
+    exclude_tables:
+      - f_user_api
